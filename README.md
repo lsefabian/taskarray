@@ -9,9 +9,9 @@ We can use these environment variables directly, for example in R Sys.getenv('SG
 
 To run a task array job add the -t flag with a description of the range to use in one of the following formats.
 
- -t 3     - run tasks 1,2 and 3
- -t 2-6   - run tasks 2,3,4,5 and 6
- -t 1-7:2 - run tasks 1,3,5 and 7
+* -t 3     - run tasks 1,2 and 3
+* -t 2-6   - run tasks 2,3,4,5 and 6
+* -t 1-7:2 - run tasks 1,3,5 and 7
 
 The number to start at has to be positive (and can not be 0). 
 
